@@ -10,7 +10,7 @@ def addToCalculation(symbol):
     #Type cast symbol into a string regardless of its actual type
     calculation += str(symbol)
     
-    text_result.delete(1.0, "end") # 1.0 is the startind index and end is the ending index, that way all the content currently in the text field is deleted
+    text_result.delete(1.0, "end") # 1.0 is the starting index and end is the ending index, that way all the content currently in the text field is deleted
     text_result.insert(1.0, calculation)
 
 #Function to call eval() and then do the necessary tkinter operations
